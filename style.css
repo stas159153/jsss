@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: chocolate;
+}
+.conteiner{
+    
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-size: 60px;
+    margin: auto;
+}
+.content{
+    margin: auto;
+    width: 100px;
+}
+.save{
+    background-color: brown;
+    width: 400px;
+    height: 100vh;
+}
+.sa{
+    padding: 15px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+}
+.sa:hover{
+    transition: 0.3s;
+    scale: 1.1;
+}
